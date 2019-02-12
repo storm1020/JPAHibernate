@@ -1,0 +1,18 @@
+package br.com.fiap.entity;
+
+import java.util.Calendar;
+
+import javax.persistence.Entity;
+
+@Entity
+@Table(nome= "T_CARGO") //Anotação não obrigatório.
+public class Cargo {
+	
+	private float salario;
+	
+	private Nivel nivel;
+	
+	private String descricao;
+	
+	private Calendar dataCadastro;
+}

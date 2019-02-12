@@ -1,0 +1,8 @@
+package br.com.fiap.entity;
+
+public class Cargo {
+	
+	private float salario;
+	
+	private Nivel nivel; 
+}
